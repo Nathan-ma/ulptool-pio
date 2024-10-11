@@ -489,7 +489,7 @@ def gen_mapgen_cmd(PATHS):
     cmds = gen_cmds(PATHS['ulptool'])
     file_names_constant = gen_file_names_constant()
     ULP_MAPGEN = []
-    ULP_MAPGEN.append('python')
+    ULP_MAPGEN.append('python3')
     ULP_MAPGEN.append(cmds['ULP_MAPGEN'])
     ULP_MAPGEN.append(EXTRA_FLAGS['S'])
     ULP_MAPGEN.append(file_names_constant['sym'])
